@@ -1,2 +1,2 @@
-# Data-226-Lab-1
+# Data-226-Homework-5
 # Building-a-Weather-Prediction-Analytics-using-Snowflake-Airflow
