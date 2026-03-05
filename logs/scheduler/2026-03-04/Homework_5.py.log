@@ -1,0 +1,798 @@
+[2026-03-04T22:37:22.953+0000] {processor.py:186} INFO - Started process (PID=1176) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:37:22.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:37:22.954+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:37:22.954+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:37:22.965+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:37:22.963+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:37:22.965+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:37:22.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.018 seconds
+[2026-03-04T22:37:53.291+0000] {processor.py:186} INFO - Started process (PID=1187) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:37:53.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:37:53.294+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:37:53.294+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:37:53.309+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:37:53.308+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:37:53.309+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:37:53.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.029 seconds
+[2026-03-04T22:38:23.633+0000] {processor.py:186} INFO - Started process (PID=1198) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:38:23.634+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:38:23.636+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:38:23.635+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:38:23.649+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:38:23.648+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:38:23.649+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:38:23.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.027 seconds
+[2026-03-04T22:38:53.933+0000] {processor.py:186} INFO - Started process (PID=1209) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:38:53.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:38:53.936+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:38:53.936+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:38:53.951+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:38:53.950+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:38:53.951+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:38:53.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.028 seconds
+[2026-03-04T22:39:24.236+0000] {processor.py:186} INFO - Started process (PID=1220) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:39:24.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:39:24.237+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:39:24.237+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:39:24.246+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:39:24.245+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:39:24.246+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:39:24.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.018 seconds
+[2026-03-04T22:39:54.623+0000] {processor.py:186} INFO - Started process (PID=1231) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:39:54.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:39:54.628+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:39:54.628+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:39:54.650+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:39:54.648+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:39:54.650+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:39:54.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.039 seconds
+[2026-03-04T22:40:24.949+0000] {processor.py:186} INFO - Started process (PID=1242) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:40:24.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:40:24.952+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:40:24.952+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:40:24.967+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:40:24.966+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:40:24.968+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:40:24.973+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.029 seconds
+[2026-03-04T22:40:55.230+0000] {processor.py:186} INFO - Started process (PID=1253) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:40:55.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:40:55.232+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:40:55.232+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:40:55.242+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:40:55.241+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:40:55.242+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:40:55.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.020 seconds
+[2026-03-04T22:41:25.468+0000] {processor.py:186} INFO - Started process (PID=1264) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:41:25.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:41:25.471+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:41:25.471+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:41:25.482+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:41:25.481+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:41:25.482+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:41:25.487+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.022 seconds
+[2026-03-04T22:41:55.734+0000] {processor.py:186} INFO - Started process (PID=1275) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:41:55.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:41:55.736+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:41:55.736+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:41:55.745+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:41:55.744+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:41:55.745+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:41:55.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.018 seconds
+[2026-03-04T22:42:26.068+0000] {processor.py:186} INFO - Started process (PID=1286) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:42:26.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:42:26.071+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:42:26.070+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:42:26.084+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:42:26.083+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:42:26.084+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:42:26.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.027 seconds
+[2026-03-04T22:42:56.378+0000] {processor.py:186} INFO - Started process (PID=1297) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:42:56.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:42:56.382+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:42:56.381+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:42:56.400+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:42:56.398+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:42:56.400+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:42:56.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.034 seconds
+[2026-03-04T22:43:26.652+0000] {processor.py:186} INFO - Started process (PID=1308) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:43:26.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:43:26.655+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:43:26.655+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:43:26.670+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:43:26.669+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:43:26.670+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:43:26.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.028 seconds
+[2026-03-04T22:43:56.959+0000] {processor.py:186} INFO - Started process (PID=1319) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:43:56.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:43:56.961+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:43:56.960+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:43:56.969+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:43:56.968+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:43:56.969+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:43:56.973+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.018 seconds
+[2026-03-04T22:44:27.270+0000] {processor.py:186} INFO - Started process (PID=1330) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:44:27.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:44:27.272+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:44:27.272+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:44:27.286+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:44:27.285+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:44:27.286+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:44:27.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.027 seconds
+[2026-03-04T22:46:16.543+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:46:16.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:46:16.546+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:46:16.546+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:46:16.554+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:46:16.553+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:46:16.554+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:46:16.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.019 seconds
+[2026-03-04T22:46:46.800+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:46:46.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:46:46.804+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:46:46.803+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:46:46.818+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:46:46.817+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:46:46.818+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:46:46.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.029 seconds
+[2026-03-04T22:47:17.035+0000] {processor.py:186} INFO - Started process (PID=278) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:47:17.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:47:17.037+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:47:17.037+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:47:17.049+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:47:17.048+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 122, in <module>
+    LATITUDE = Variable.get("Latitude")
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable Latitude does not exist'
+[2026-03-04T22:47:17.049+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:47:17.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.022 seconds
+[2026-03-04T22:47:47.325+0000] {processor.py:186} INFO - Started process (PID=289) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:47:47.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:47:47.327+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:47:47.327+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:47:47.342+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:47:47.341+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 124, in <module>
+    CITY = Variable.get("City")
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable City does not exist'
+[2026-03-04T22:47:47.343+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:47:47.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.028 seconds
+[2026-03-04T22:48:17.605+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:48:17.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:48:17.608+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:48:17.607+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:48:17.625+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:48:17.623+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 124, in <module>
+    CITY = Variable.get("City")
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable City does not exist'
+[2026-03-04T22:48:17.625+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:48:17.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.030 seconds
+[2026-03-04T22:48:56.172+0000] {processor.py:186} INFO - Started process (PID=245) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:48:56.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:48:56.174+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:48:56.174+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:48:56.191+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:48:56.191+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 124, in <module>
+    CITY = Variable.get("City")
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable City does not exist'
+[2026-03-04T22:48:56.192+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:48:56.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.030 seconds
+[2026-03-04T22:49:26.437+0000] {processor.py:186} INFO - Started process (PID=274) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:49:26.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:49:26.440+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:49:26.440+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:49:26.459+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:49:26.458+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 124, in <module>
+    CITY = Variable.get("City")
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable City does not exist'
+[2026-03-04T22:49:26.460+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:49:26.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.034 seconds
+[2026-03-04T22:49:56.774+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:49:56.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:49:56.776+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:49:56.776+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:49:56.789+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:49:56.788+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Homework_5.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Homework_5.py", line 124, in <module>
+    CITY = Variable.get("City")
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable City does not exist'
+[2026-03-04T22:49:56.790+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:49:56.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.023 seconds
+[2026-03-04T22:50:27.047+0000] {processor.py:186} INFO - Started process (PID=296) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:50:27.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:50:27.051+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.051+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:50:27.074+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:50:27.123+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.123+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:WeatherData_ETL
+[2026-03-04T22:50:27.126+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.126+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:WeatherData_ETL
+[2026-03-04T22:50:27.127+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.127+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:WeatherData_ETL
+[2026-03-04T22:50:27.128+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.128+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:WeatherData_ETL
+[2026-03-04T22:50:27.130+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.130+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:WeatherData_ETL
+[2026-03-04T22:50:27.131+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.131+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:WeatherData_ETL
+[2026-03-04T22:50:27.132+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.132+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:WeatherData_ETL
+[2026-03-04T22:50:27.132+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.132+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:50:27.137+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.137+0000] {dag.py:3252} INFO - Creating ORM DAG for WeatherData_ETL
+[2026-03-04T22:50:27.140+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:27.140+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:50:27.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.105 seconds
+[2026-03-04T22:50:57.324+0000] {processor.py:186} INFO - Started process (PID=307) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:50:57.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:50:57.327+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:57.327+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:50:57.346+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:50:57.355+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:57.355+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:50:57.363+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:50:57.363+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:50:57.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.049 seconds
+[2026-03-04T22:51:27.607+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:51:27.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:51:27.609+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:51:27.609+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:51:27.626+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:51:27.634+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:51:27.634+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:51:27.642+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:51:27.642+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:51:27.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.046 seconds
+[2026-03-04T22:51:57.914+0000] {processor.py:186} INFO - Started process (PID=329) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:51:57.915+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:51:57.917+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:51:57.917+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:51:57.935+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:51:57.944+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:51:57.944+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:51:57.955+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:51:57.955+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:51:57.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-04T22:52:28.233+0000] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:52:28.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:52:28.236+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:52:28.235+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:52:28.254+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:52:28.264+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:52:28.263+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:52:28.272+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:52:28.272+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:52:28.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-04T22:52:58.553+0000] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:52:58.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:52:58.556+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:52:58.556+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:52:58.574+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:52:58.583+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:52:58.583+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:52:58.592+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:52:58.592+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:52:58.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-04T22:53:28.881+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:53:28.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:53:28.884+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:53:28.883+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:53:28.897+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:53:28.903+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:53:28.903+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:53:28.911+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:53:28.911+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:53:28.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.040 seconds
+[2026-03-04T22:53:59.227+0000] {processor.py:186} INFO - Started process (PID=373) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:53:59.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:53:59.230+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:53:59.230+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:53:59.248+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:53:59.257+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:53:59.257+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:53:59.267+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:53:59.267+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:53:59.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-04T22:54:29.551+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:54:29.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:54:29.554+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:54:29.554+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:54:29.574+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:54:29.586+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:54:29.585+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:54:29.594+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:54:29.594+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:54:29.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.054 seconds
+[2026-03-04T22:54:59.834+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:54:59.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:54:59.839+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:54:59.839+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:54:59.858+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:54:59.867+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:54:59.867+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:54:59.876+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:54:59.876+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:54:59.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.054 seconds
+[2026-03-04T22:55:30.183+0000] {processor.py:186} INFO - Started process (PID=406) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:55:30.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:55:30.186+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:55:30.186+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:55:30.204+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:55:30.213+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:55:30.213+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:55:30.222+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:55:30.222+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:55:30.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.050 seconds
+[2026-03-04T22:56:00.504+0000] {processor.py:186} INFO - Started process (PID=417) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:56:00.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:56:00.506+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:56:00.506+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:56:00.524+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:56:00.534+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:56:00.533+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:56:00.544+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:56:00.544+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:56:00.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-04T22:56:30.824+0000] {processor.py:186} INFO - Started process (PID=428) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:56:30.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:56:30.827+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:56:30.826+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:56:30.846+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:56:30.855+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:56:30.855+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:56:30.865+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:56:30.865+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:56:30.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-04T22:57:01.201+0000] {processor.py:186} INFO - Started process (PID=439) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:57:01.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:57:01.205+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:57:01.205+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:57:01.229+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:57:01.240+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:57:01.240+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:57:01.251+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:57:01.251+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:57:01.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.065 seconds
+[2026-03-04T22:57:31.489+0000] {processor.py:186} INFO - Started process (PID=450) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:57:31.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:57:31.492+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:57:31.492+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:57:31.510+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:57:31.520+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:57:31.520+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:57:31.530+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:57:31.530+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:57:31.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.054 seconds
+[2026-03-04T22:58:01.824+0000] {processor.py:186} INFO - Started process (PID=461) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:58:01.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:58:01.827+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:58:01.827+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:58:01.844+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:58:01.853+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:58:01.853+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:58:01.862+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:58:01.862+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:58:01.867+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.049 seconds
+[2026-03-04T22:58:32.226+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:58:32.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:58:32.229+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:58:32.229+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:58:32.247+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:58:32.257+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:58:32.257+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:58:32.267+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:58:32.267+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:58:32.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-04T22:59:02.624+0000] {processor.py:186} INFO - Started process (PID=483) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:59:02.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:59:02.626+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:59:02.626+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:59:02.644+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:59:02.653+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:59:02.653+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:59:02.662+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:59:02.662+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:59:02.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.048 seconds
+[2026-03-04T22:59:33.028+0000] {processor.py:186} INFO - Started process (PID=494) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:59:33.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T22:59:33.031+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:59:33.031+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:59:33.047+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T22:59:33.055+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:59:33.055+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T22:59:33.065+0000] {logging_mixin.py:190} INFO - [2026-03-04T22:59:33.065+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T22:59:33.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.048 seconds
+[2026-03-04T23:00:03.392+0000] {processor.py:186} INFO - Started process (PID=505) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:00:03.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:00:03.394+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:00:03.394+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:00:03.412+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:00:03.421+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:00:03.420+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:00:03.430+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:00:03.430+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:00:03.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.050 seconds
+[2026-03-04T23:00:33.771+0000] {processor.py:186} INFO - Started process (PID=516) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:00:33.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:00:33.773+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:00:33.773+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:00:33.792+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:00:33.801+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:00:33.800+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:00:33.811+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:00:33.811+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:00:33.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.053 seconds
+[2026-03-04T23:01:04.107+0000] {processor.py:186} INFO - Started process (PID=527) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:01:04.108+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:01:04.109+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:01:04.109+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:01:04.124+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:01:04.132+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:01:04.131+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:01:04.141+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:01:04.141+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:01:04.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.045 seconds
+[2026-03-04T23:01:34.395+0000] {processor.py:186} INFO - Started process (PID=538) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:01:34.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:01:34.398+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:01:34.398+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:01:34.416+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:01:34.426+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:01:34.426+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:01:34.438+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:01:34.438+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:01:34.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.056 seconds
+[2026-03-04T23:02:04.727+0000] {processor.py:186} INFO - Started process (PID=549) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:02:04.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:02:04.732+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:02:04.731+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:02:04.759+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:02:04.768+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:02:04.768+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:02:04.778+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:02:04.778+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:02:04.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.066 seconds
+[2026-03-04T23:02:35.053+0000] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:02:35.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:02:35.057+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:02:35.056+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:02:35.075+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:02:35.085+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:02:35.085+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:02:35.094+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:02:35.094+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:02:35.100+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-04T23:03:05.354+0000] {processor.py:186} INFO - Started process (PID=571) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:03:05.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:03:05.357+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:03:05.357+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:03:05.380+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:03:05.390+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:03:05.390+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:03:05.400+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:03:05.400+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:03:05.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.061 seconds
+[2026-03-04T23:03:35.666+0000] {processor.py:186} INFO - Started process (PID=582) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:03:35.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:03:35.671+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:03:35.670+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:03:35.687+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:03:35.695+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:03:35.695+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:03:35.704+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:03:35.704+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:03:35.710+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.050 seconds
+[2026-03-04T23:04:05.963+0000] {processor.py:186} INFO - Started process (PID=593) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:04:05.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:04:05.966+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:04:05.966+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:04:05.981+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:04:05.988+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:04:05.988+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:04:05.998+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:04:05.998+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:04:06.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.045 seconds
+[2026-03-04T23:04:36.266+0000] {processor.py:186} INFO - Started process (PID=604) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:04:36.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:04:36.269+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:04:36.269+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:04:36.287+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:04:36.295+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:04:36.294+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:04:36.303+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:04:36.303+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:04:36.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.048 seconds
+[2026-03-04T23:05:06.609+0000] {processor.py:186} INFO - Started process (PID=615) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:05:06.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:05:06.611+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:05:06.611+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:05:06.628+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:05:06.638+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:05:06.637+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:05:06.647+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:05:06.647+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:05:06.653+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.050 seconds
+[2026-03-04T23:05:36.910+0000] {processor.py:186} INFO - Started process (PID=632) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:05:36.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:05:36.913+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:05:36.913+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:05:36.935+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:05:36.946+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:05:36.946+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:05:36.955+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:05:36.955+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:05:36.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.059 seconds
+[2026-03-04T23:06:07.238+0000] {processor.py:186} INFO - Started process (PID=643) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:06:07.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:06:07.241+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:06:07.240+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:06:07.260+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:06:07.269+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:06:07.268+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:06:07.277+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:06:07.277+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-03 02:30:00+00:00, run_after=2026-03-04 02:30:00+00:00
+[2026-03-04T23:06:07.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-04T23:06:37.545+0000] {processor.py:186} INFO - Started process (PID=656) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:06:37.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:06:37.548+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:06:37.548+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:06:37.566+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:06:37.574+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:06:37.574+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:06:37.583+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:06:37.583+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:06:37.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.050 seconds
+[2026-03-04T23:07:07.828+0000] {processor.py:186} INFO - Started process (PID=695) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:07:07.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:07:07.831+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:07:07.830+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:07:07.847+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:07:07.857+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:07:07.857+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:07:07.867+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:07:07.867+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:07:07.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-04T23:07:38.151+0000] {processor.py:186} INFO - Started process (PID=706) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:07:38.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:07:38.154+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:07:38.154+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:07:38.173+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:07:38.181+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:07:38.181+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:07:38.190+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:07:38.190+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:07:38.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.050 seconds
+[2026-03-04T23:08:08.495+0000] {processor.py:186} INFO - Started process (PID=717) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:08:08.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:08:08.497+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:08:08.497+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:08:08.515+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:08:08.525+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:08:08.525+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:08:08.534+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:08:08.534+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:08:08.540+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.053 seconds
+[2026-03-04T23:08:38.811+0000] {processor.py:186} INFO - Started process (PID=728) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:08:38.812+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:08:38.814+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:08:38.813+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:08:38.835+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:08:38.846+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:08:38.846+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:08:38.856+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:08:38.856+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:08:38.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.058 seconds
+[2026-03-04T23:09:09.137+0000] {processor.py:186} INFO - Started process (PID=739) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:09:09.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:09:09.140+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:09:09.140+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:09:09.158+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:09:09.167+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:09:09.167+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:09:09.177+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:09:09.177+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:09:09.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-04T23:09:39.450+0000] {processor.py:186} INFO - Started process (PID=750) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:09:39.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:09:39.453+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:09:39.452+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:09:39.468+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:09:39.477+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:09:39.477+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:09:39.487+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:09:39.487+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:09:39.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.047 seconds
+[2026-03-04T23:10:09.786+0000] {processor.py:186} INFO - Started process (PID=761) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:10:09.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:10:09.789+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:10:09.789+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:10:09.808+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:10:09.818+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:10:09.818+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:10:09.830+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:10:09.830+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:10:09.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.057 seconds
+[2026-03-04T23:10:40.181+0000] {processor.py:186} INFO - Started process (PID=772) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:10:40.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:10:40.183+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:10:40.183+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:10:40.201+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:10:40.211+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:10:40.210+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:10:40.221+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:10:40.221+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:10:40.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-04T23:16:31.207+0000] {processor.py:186} INFO - Started process (PID=777) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:16:31.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:16:31.210+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:16:31.210+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:16:31.228+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:16:31.237+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:16:31.236+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:16:31.246+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:16:31.245+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:16:31.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.049 seconds
+[2026-03-04T23:17:10.471+0000] {processor.py:186} INFO - Started process (PID=798) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:17:10.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:17:10.474+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:17:10.474+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:17:10.494+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:17:10.503+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:17:10.502+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:17:10.511+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:17:10.511+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:17:10.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.053 seconds
+[2026-03-04T23:17:40.867+0000] {processor.py:186} INFO - Started process (PID=809) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:17:40.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:17:40.870+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:17:40.870+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:17:40.888+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:17:40.898+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:17:40.898+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:17:40.907+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:17:40.907+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:17:40.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-04T23:24:37.824+0000] {processor.py:186} INFO - Started process (PID=820) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:24:37.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:24:37.826+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:24:37.826+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:24:37.841+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:24:37.847+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:24:37.847+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:24:37.855+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:24:37.855+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:24:37.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.041 seconds
+[2026-03-04T23:25:08.159+0000] {processor.py:186} INFO - Started process (PID=831) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:25:08.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:25:08.162+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:25:08.162+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:25:08.178+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:25:08.186+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:25:08.186+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:25:08.195+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:25:08.195+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:25:08.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.048 seconds
+[2026-03-04T23:27:38.504+0000] {processor.py:186} INFO - Started process (PID=842) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:27:38.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:27:38.507+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:27:38.506+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:27:38.525+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:27:38.534+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:27:38.534+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:27:38.543+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:27:38.543+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:27:38.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-04T23:28:08.879+0000] {processor.py:186} INFO - Started process (PID=853) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:28:08.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:28:08.882+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:28:08.882+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:28:08.901+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:28:08.910+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:28:08.910+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:28:08.920+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:28:08.920+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:28:08.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-04T23:34:26.855+0000] {processor.py:186} INFO - Started process (PID=864) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:34:26.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:34:26.857+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:34:26.857+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:34:26.874+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:34:26.881+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:34:26.881+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:34:26.889+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:34:26.889+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:34:26.895+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.044 seconds
+[2026-03-04T23:34:59.496+0000] {processor.py:186} INFO - Started process (PID=875) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:34:59.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:34:59.499+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:34:59.499+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:34:59.519+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:34:59.529+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:34:59.529+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:34:59.541+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:34:59.541+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:34:59.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.084 seconds
+[2026-03-04T23:39:02.724+0000] {processor.py:186} INFO - Started process (PID=886) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:39:02.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:39:02.727+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:39:02.727+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:39:02.745+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:39:02.754+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:39:02.754+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:39:02.762+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:39:02.762+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:39:02.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.049 seconds
+[2026-03-04T23:39:33.089+0000] {processor.py:186} INFO - Started process (PID=897) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:39:33.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:39:33.092+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:39:33.092+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:39:33.111+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:39:33.121+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:39:33.120+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:39:33.130+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:39:33.130+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:39:33.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-04T23:41:14.463+0000] {processor.py:186} INFO - Started process (PID=908) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:41:14.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:41:14.466+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:41:14.466+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:41:14.485+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:41:14.494+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:41:14.494+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:41:14.503+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:41:14.503+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:41:14.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-04T23:57:12.626+0000] {processor.py:186} INFO - Started process (PID=919) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:57:12.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:57:12.628+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:57:12.628+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:57:12.642+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:57:12.649+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:57:12.649+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:57:12.657+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:57:12.657+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:57:12.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.041 seconds
+[2026-03-04T23:57:42.952+0000] {processor.py:186} INFO - Started process (PID=930) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:57:42.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:57:42.954+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:57:42.954+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:57:42.971+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:57:42.978+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:57:42.978+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:57:42.987+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:57:42.987+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:57:42.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.046 seconds
+[2026-03-04T23:58:14.444+0000] {processor.py:186} INFO - Started process (PID=941) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:58:14.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:58:14.447+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:58:14.447+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:58:14.464+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:58:14.473+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:58:14.473+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:58:14.482+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:58:14.482+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:58:14.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.049 seconds
+[2026-03-04T23:58:44.806+0000] {processor.py:186} INFO - Started process (PID=952) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:58:44.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-04T23:58:44.809+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:58:44.809+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:58:44.827+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-04T23:58:44.836+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:58:44.836+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-04T23:58:44.845+0000] {logging_mixin.py:190} INFO - [2026-03-04T23:58:44.845+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-04T23:58:44.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds

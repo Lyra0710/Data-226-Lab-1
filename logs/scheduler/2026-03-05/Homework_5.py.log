@@ -1,0 +1,182 @@
+[2026-03-05T00:09:34.211+0000] {processor.py:186} INFO - Started process (PID=963) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:09:34.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:09:34.213+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:09:34.213+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:09:34.229+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:09:34.235+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:09:34.235+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:09:34.243+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:09:34.243+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:09:34.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.042 seconds
+[2026-03-05T00:10:14.054+0000] {processor.py:186} INFO - Started process (PID=974) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:10:14.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:10:14.057+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:10:14.056+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:10:14.074+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:10:14.084+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:10:14.084+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:10:14.093+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:10:14.093+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:10:14.100+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-05T00:10:44.431+0000] {processor.py:186} INFO - Started process (PID=985) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:10:44.431+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:10:44.433+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:10:44.433+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:10:44.451+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:10:44.461+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:10:44.461+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:10:44.471+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:10:44.471+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:10:44.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-05T00:17:09.796+0000] {processor.py:186} INFO - Started process (PID=996) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:17:09.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:17:09.798+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:17:09.798+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:17:09.815+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:17:09.824+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:17:09.823+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:17:09.833+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:17:09.833+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:17:09.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.048 seconds
+[2026-03-05T00:23:03.155+0000] {processor.py:186} INFO - Started process (PID=1007) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:23:03.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:23:03.158+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:23:03.158+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:23:03.176+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:23:03.185+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:23:03.185+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:23:03.194+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:23:03.194+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:23:03.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.049 seconds
+[2026-03-05T00:23:33.570+0000] {processor.py:186} INFO - Started process (PID=1018) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:23:33.571+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:23:33.572+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:23:33.572+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:23:33.591+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:23:33.601+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:23:33.600+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:23:33.610+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:23:33.610+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:23:33.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-05T00:24:10.103+0000] {processor.py:186} INFO - Started process (PID=1029) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:24:10.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:24:10.106+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:24:10.106+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:24:10.126+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:24:10.138+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:24:10.137+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:24:10.148+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:24:10.148+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:24:10.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.056 seconds
+[2026-03-05T00:31:11.335+0000] {processor.py:186} INFO - Started process (PID=1040) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:31:11.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:31:11.338+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:31:11.338+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:31:11.358+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:31:11.367+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:31:11.366+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:31:11.376+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:31:11.376+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:31:11.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-05T00:31:41.649+0000] {processor.py:186} INFO - Started process (PID=1051) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:31:41.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:31:41.653+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:31:41.652+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:31:41.673+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:31:41.682+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:31:41.682+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:31:41.691+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:31:41.691+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:31:41.697+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.055 seconds
+[2026-03-05T00:33:32.225+0000] {processor.py:186} INFO - Started process (PID=1062) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:33:32.226+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:33:32.227+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:33:32.227+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:33:32.242+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:33:32.250+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:33:32.249+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:33:32.259+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:33:32.258+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:33:32.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.045 seconds
+[2026-03-05T00:34:43.026+0000] {processor.py:186} INFO - Started process (PID=1073) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:34:43.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:34:43.029+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:34:43.028+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:34:43.046+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:34:43.057+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:34:43.056+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:34:43.067+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:34:43.067+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:34:43.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.053 seconds
+[2026-03-05T00:35:13.416+0000] {processor.py:186} INFO - Started process (PID=1084) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:35:13.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:35:13.418+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:35:13.418+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:35:13.437+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:35:13.446+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:35:13.446+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:35:13.456+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:35:13.456+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:35:13.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-05T00:38:17.640+0000] {processor.py:186} INFO - Started process (PID=1095) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:38:17.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:38:17.643+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:38:17.643+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:38:17.662+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:38:17.670+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:38:17.670+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:38:17.679+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:38:17.679+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:38:17.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.050 seconds
+[2026-03-05T00:38:47.998+0000] {processor.py:186} INFO - Started process (PID=1106) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:38:47.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:38:48.001+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:38:48.000+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:38:48.019+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:38:48.029+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:38:48.028+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:38:48.038+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:38:48.038+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:38:48.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-05T00:39:29.038+0000] {processor.py:186} INFO - Started process (PID=1117) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:39:29.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:39:29.042+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:39:29.041+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:39:29.060+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:39:29.070+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:39:29.070+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:39:29.080+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:39:29.080+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:39:29.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.053 seconds
+[2026-03-05T00:39:59.356+0000] {processor.py:186} INFO - Started process (PID=1128) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:39:59.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:39:59.359+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:39:59.359+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:39:59.378+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:39:59.388+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:39:59.388+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:39:59.410+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:39:59.410+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:39:59.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.070 seconds
+[2026-03-05T00:40:29.670+0000] {processor.py:186} INFO - Started process (PID=1139) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:40:29.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:40:29.674+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:40:29.674+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:40:29.692+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:40:29.706+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:40:29.705+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:40:29.718+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:40:29.718+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:40:29.725+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.060 seconds
+[2026-03-05T00:40:59.969+0000] {processor.py:186} INFO - Started process (PID=1150) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:40:59.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:40:59.972+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:40:59.972+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:40:59.989+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:40:59.997+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:40:59.997+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:41:00.006+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:41:00.006+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:41:00.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.049 seconds
+[2026-03-05T00:41:30.263+0000] {processor.py:186} INFO - Started process (PID=1161) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:41:30.264+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:41:30.266+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:41:30.266+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:41:30.284+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:41:30.294+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:41:30.294+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:41:30.304+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:41:30.304+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:41:30.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-05T00:42:00.557+0000] {processor.py:186} INFO - Started process (PID=1172) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:42:00.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:42:00.559+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:42:00.559+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:42:00.578+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:42:00.588+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:42:00.588+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:42:00.597+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:42:00.597+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:42:00.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-05T00:42:30.866+0000] {processor.py:186} INFO - Started process (PID=1183) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:42:30.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:42:30.869+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:42:30.868+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:42:30.886+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:42:30.895+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:42:30.895+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:42:30.905+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:42:30.905+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:42:30.911+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.051 seconds
+[2026-03-05T00:43:01.178+0000] {processor.py:186} INFO - Started process (PID=1194) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:43:01.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:43:01.181+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:43:01.181+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:43:01.199+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:43:01.209+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:43:01.209+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:43:01.218+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:43:01.218+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:43:01.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.052 seconds
+[2026-03-05T00:43:31.514+0000] {processor.py:186} INFO - Started process (PID=1205) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:43:31.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:43:31.518+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:43:31.517+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:43:31.539+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:43:31.548+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:43:31.547+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:43:31.558+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:43:31.558+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:43:31.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.055 seconds
+[2026-03-05T00:44:01.803+0000] {processor.py:186} INFO - Started process (PID=1216) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:44:01.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:44:01.807+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:44:01.806+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:44:01.829+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:44:01.840+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:44:01.839+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:44:01.851+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:44:01.851+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:44:01.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.061 seconds
+[2026-03-05T00:44:32.168+0000] {processor.py:186} INFO - Started process (PID=1227) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:44:32.169+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:44:32.172+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:44:32.172+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:44:32.196+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:44:32.206+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:44:32.206+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:44:32.216+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:44:32.216+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:44:32.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.060 seconds
+[2026-03-05T00:45:02.494+0000] {processor.py:186} INFO - Started process (PID=1238) to work on /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:45:02.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Homework_5.py for tasks to queue
+[2026-03-05T00:45:02.498+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:45:02.497+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:45:02.516+0000] {processor.py:925} INFO - DAG(s) 'WeatherData_ETL' retrieved from /opt/airflow/dags/Homework_5.py
+[2026-03-05T00:45:02.526+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:45:02.525+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-05T00:45:02.536+0000] {logging_mixin.py:190} INFO - [2026-03-05T00:45:02.535+0000] {dag.py:4156} INFO - Setting next_dagrun for WeatherData_ETL to 2026-03-04 02:30:00+00:00, run_after=2026-03-05 02:30:00+00:00
+[2026-03-05T00:45:02.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Homework_5.py took 0.054 seconds
