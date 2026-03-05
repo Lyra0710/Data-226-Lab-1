@@ -2,6 +2,6 @@ config
 dbt
 logs
 plugins
-docker-compose.yml
 dags/__pycache__
-gitignore
+.gitignore
+docker-compose.yml
