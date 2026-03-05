@@ -8,6 +8,8 @@ import requests
 default_args = {
     'owner': 'airflow',
     'email': ['ananya.yallapragada@sjsu.edu'],
+    'email_on_failure': False,
+    'email_on_retry': False,
     'start_date': datetime(2024, 6, 1),
     'retries': 1,
     'retry_delay': timedelta(minutes=5)
